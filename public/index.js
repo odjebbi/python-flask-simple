@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Express App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🟢 Node.js Express Simple API</h1>
+        <p>Application déployée avec buildpacks</p>
+        <div class="endpoints">
+            <h2>Endpoints disponibles :</h2>
+            <ul>
+                <li><code>GET /</code> - Cette page</li>
+                <li><code>GET /api/hello</code> - Message JSON</li>
+                <li><code>GET /health</code> - Health check</li>
+                <li><code>GET /api/info</code> - Info API</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
